@@ -1,0 +1,86 @@
+.bg-pink {
+  background-color: #f06178;
+  
+}
+.bg-blue {
+  background-color: #223266;
+}
+.bg-blue-light {
+  background-color: #eff3f9;
+}
+.text-white{
+    color: white;
+}
+.text-grey{
+    color: #687281;
+}
+.text-pink{
+    color: #f06178;
+}
+.toggleEnd {
+  float: right;
+}
+
+.img-logo {
+  height: 50%;
+  width: 50%;
+}
+
+.img-celular {
+    height: 467px;
+    width: 235px;
+  }
+.logo-whats{
+    position: relative;
+top: 30px;
+    font-size: 48px;
+    color: #34af23;
+}
+.card {
+  background-color: #223266;
+  color: white;
+}
+.icons{
+    font-size: 36px;
+}
+/* borda-superior */
+.copyright{
+    border-top: 1px solid #687281;
+    color: white;
+}
+
+.waveFooter {
+  position: relative;
+  top: 50%;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  width: 100%;
+  color: #223266;
+}
+
+.wave {
+  position: relative;
+  top: 90px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  width: 100%;
+  color: white;
+}
+
+.c {
+  animation: moveWave 3s ease-in-out infinite alternate-reverse;
+}
+
+.d {
+  animation: moveWave 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave {
+  from {
+    transform: translateX(-200px);
+  }
+}
