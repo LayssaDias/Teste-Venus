@@ -1,11 +1,35 @@
+/*cores principais*/
 .bg-pink {
   background-color: #f06178;
+  
 }
 .bg-blue {
   background-color: #223266;
 }
 .bg-blue-light {
   background-color: #eff3f9;
+}
+.card {
+  background-color: #223266;
+  color: white;
+}
+
+/*cores principais textos*/
+.text-white {
+  color: white;
+}
+.text-grey {
+  color: #687281;
+}
+.text-pink {
+  color: #f06178;
+}
+
+/*carousel*/
+.center {
+  margin: auto;
+  width: 80%;
+  text-align: center;
 }
 .btn-left {
   font-size: 3em;
@@ -17,25 +41,8 @@
   color: #687281;
   margin-left: 80px;
 }
-.center {
-  margin: auto;
-  width: 80%;
-  text-align: center;
-}
 
-.text-white {
-  color: white;
-}
-.text-grey {
-  color: #687281;
-}
-.text-pink {
-  color: #f06178;
-}
-.toggleEnd {
-  float: right;
-}
-
+/*ajustes imagens*/
 .img-logo {
   height: 50%;
   width: 50%;
@@ -45,36 +52,19 @@
   height: 467px;
   width: 235px;
 }
-.logo-whats {
+
+/*ajustes icones*/
+.icons {
+  font-size: 36px;
+}
+.icon-whatsapp {
   position: relative;
   top: 30px;
   font-size: 48px;
   color: #34af23;
 }
-.card {
-  background-color: #223266;
-  color: white;
-}
-.icons {
-  font-size: 36px;
-}
-/* borda-superior */
-.copyright {
-  border-top: 1px solid #687281;
-  color: white;
-}
 
-.waveFooter {
-  position: relative;
-  top: 50%;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  height: 80px;
-  width: 100%;
-  color: #223266;
-}
-
+/*animação wave*/
 .wave {
   position: relative;
   top: 90px;
@@ -84,6 +74,16 @@
   height: 80px;
   width: 100%;
   color: white;
+}
+.waveFooter {
+  position: relative;
+  top: 50%;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  width: 100%;
+  color: #223266;
 }
 
 .c {
@@ -98,4 +98,9 @@
   from {
     transform: translateX(-200px);
   }
+}
+/* borda-superior */
+.copyright {
+  border-top: 1px solid #687281;
+  color: white;
 }
